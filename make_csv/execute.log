@@ -1,0 +1,13 @@
+
+ファイル名: C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx
+シート名: testdata
+取得したセルの値 年齢: 25
+取得したセルの値 性別: 男
+取得したセルの値 所属: ABCグループ
+取得したセルの値 所属年数: 15
+取得したセルの値 Q1: テストQ1
+取得したセルの値 Q2: YES999999999999999999999999999999999999999999999999999999
+取得したセルの値 Q3: テスト2
+result:  0
+おしまい
+PS C:\work\PowerShell\union\make_csv> 
