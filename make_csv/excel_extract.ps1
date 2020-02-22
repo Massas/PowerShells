@@ -19,11 +19,10 @@ try
     $targetdir = "C:\work\PowerShell\union\make_csv"
     Write-Host "targetdir = "$targetdir
 
-    # $itemlist = Get-ChildItem $targetdir -Filter "*.xlsx" -Name
     $itemlist = Get-ChildItem $targetdir -Filter "*.xlsx"
 
     # 空ファイルの作成
-    $writefile = $targetdir + '\test.txt'
+    $writefile = $targetdir + '\excel_extract.csv'
     New-Item -Path $writefile -ItemType File
 
     foreach($item in $itemlist){
@@ -40,33 +39,39 @@ try
 
             # Excelファイルの指定したシートのセルの値を取得する
             $workbook = $excel.Workbooks.Open($filename)
-            $worksheet = $workbook.Sheets(1)
-            $value_age = $worksheet.Range("C3").Text
-            $value_sex = $worksheet.Range("C4").Text
-            $value_belonging = $worksheet.Range("C5").Text
-            $value_len_year = $worksheet.Range("C6").Text
-            $value_q1 = $worksheet.Range("B9").Text
-            $value_q2 = $worksheet.Range("B15").Text
-            $value_q3 = $worksheet.Range("B18").Text
 
-            # 文字列連結する
-            $value_str_to_csv = $value_age + "," + $value_sex + "," + $value_belonging + "," + $value_len_year + "," + $value_q1 + "," + $value_q2 + "," + $value_q3
+            # シートがある分だけループ処理
+            foreach ($workSheet in $excel.Worksheets) {
 
-            # 取得したセルの値をコンソールに表示する
-            Write-Host "ファイル名:" $filename
-            Write-Host "シート名:" $worksheet.Name
-            Write-Host "取得したセルの値 年齢:" $value_age
-            Write-Host "取得したセルの値 性別:" $value_sex
-            Write-Host "取得したセルの値 所属:" $value_belonging
-            Write-Host "取得したセルの値 所属年数:" $value_len_year
-            Write-Host "取得したセルの値 Q1:" $value_q1
-            Write-Host "取得したセルの値 Q2:" $value_q2
-            Write-Host "取得したセルの値 Q3:" $value_q3
-            Write-Host "■csvに書き込むデータ：" $value_str_to_csv
+                Write-Host "worksheetname: " $worksheet
 
-            # ファイルへの書き込み
-            Write-Output $value_str_to_csv | Add-Content $writefile -Encoding Default
-
+                $value_age = $worksheet.Range("C3").Text
+                $value_sex = $worksheet.Range("C4").Text
+                $value_belonging = $worksheet.Range("C5").Text
+                $value_len_year = $worksheet.Range("C6").Text
+                $value_q1 = $worksheet.Range("B9").Text
+                $value_q2 = $worksheet.Range("B15").Text
+                $value_q3 = $worksheet.Range("B18").Text
+    
+                # 文字列連結する
+                $value_str_to_csv = $filename + "," + $worksheet.Name + "," + $value_age + "," + $value_sex + "," + $value_belonging + "," + $value_len_year + "," + $value_q1 + "," + $value_q2 + "," + $value_q3
+    
+                # 取得したセルの値をコンソールに表示する
+                Write-Host "ファイル名:" $filename
+                Write-Host "シート名:" $worksheet.Name
+                Write-Host "取得したセルの値 年齢:" $value_age
+                Write-Host "取得したセルの値 性別:" $value_sex
+                Write-Host "取得したセルの値 所属:" $value_belonging
+                Write-Host "取得したセルの値 所属年数:" $value_len_year
+                Write-Host "取得したセルの値 Q1:" $value_q1
+                Write-Host "取得したセルの値 Q2:" $value_q2
+                Write-Host "取得したセルの値 Q3:" $value_q3
+                Write-Host "■csvに書き込むデータ：" $value_str_to_csv
+    
+                # ファイルへの書き込み
+                Write-Output $value_str_to_csv | Add-Content $writefile -Encoding Default
+    
+            }
         }
     }    
 }
