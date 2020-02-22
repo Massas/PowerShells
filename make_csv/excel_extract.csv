@@ -1,0 +1,4 @@
+C:\work\PowerShell\union\make_csv\powershell_testdata(B).xlsx,testdata,55,男,DEFグループ,37,テストQ1の答え,No,テスト2の答え
+C:\work\PowerShell\union\make_csv\powershell_testdata(B).xlsx,Sheet (2),,,,,,YES,テスト2
+C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx,testdata,25,男,ABCグループ,15,テストQ1,YES999999999999999999999999999999999999999999999999999999,テスト2
+C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx,Sheet (2),25,男,ABCグループ,15,テスト,YES,テスト2
