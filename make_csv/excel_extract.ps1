@@ -6,7 +6,8 @@ $filename = "C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx"
 $excel = $null
 $workbook = $null
 $worksheet = $null
- 
+$writefile = $null
+
 try
 {
     # ExcelのCOMオブジェクトを取得する
@@ -15,6 +16,10 @@ try
     # Excelの動作の設定をする
     $excel.Visible = $true
     $excel.DisplayAlerts = $true
+
+    # 空ファイルの作成
+    $writefile = 'C:\work\PowerShell\union\make_csv\test.txt'
+    New-Item -Path $writefile -ItemType File
  
     # Excelファイルの指定したシートのセルの値を取得する
     $workbook = $excel.Workbooks.Open($filename)
@@ -26,6 +31,9 @@ try
     $value_q1 = $worksheet.Range("B9").Text
     $value_q2 = $worksheet.Range("B15").Text
     $value_q3 = $worksheet.Range("B18").Text
+
+    # 文字列連結する
+    $value_str_to_csv = $value_age + "," + $value_sex + "," + $value_belonging + "," + $value_len_year + "," + $value_q1 + "," + $value_q2 + "," + $value_q3
  
     # 取得したセルの値をコンソールに表示する
     Write-Host "ファイル名:" $filename
@@ -37,6 +45,10 @@ try
     Write-Host "取得したセルの値 Q1:" $value_q1
     Write-Host "取得したセルの値 Q2:" $value_q2
     Write-Host "取得したセルの値 Q3:" $value_q3
+    Write-Host "■csvに書き込むデータ：" $value_str_to_csv
+
+    # ファイルへの書き込み
+    Write-Output $value_str_to_csv | Add-Content $writefile -Encoding Default
 }
 catch
 {
