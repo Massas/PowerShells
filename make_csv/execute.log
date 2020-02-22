@@ -1,13 +1,38 @@
+targetdir =  C:\work\PowerShell\union\make_csv
 
-�t�@�C����: C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx
-�V�[�g��: testdata
-�擾�����Z���̒l �N��: 25
-�擾�����Z���̒l ����: �j
-�擾�����Z���̒l ����: ABC�O���[�v
-�擾�����Z���̒l �����N��: 15
-�擾�����Z���̒l Q1: �e�X�gQ1
-�擾�����Z���̒l Q2: YES999999999999999999999999999999999999999999999999999999
-�擾�����Z���̒l Q3: �e�X�g2
+
+    ディレクトリ: C:\work\PowerShell\union\make_csv
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2020/02/22     22:14              0 test.txt
+処理するファイル名： powershell_testdata(B).xlsx
+filename =  C:\work\PowerShell\union\make_csv\powershell_testdata(B).xlsx
+ファイル名: C:\work\PowerShell\union\make_csv\powershell_testdata(B).xlsx
+シート名: testdata
+取得したセルの値 年齢: 55
+取得したセルの値 性別: 男
+取得したセルの値 所属: DEFグループ
+取得したセルの値 所属年数: 37
+取得したセルの値 Q1: テストQ1の答え
+取得したセルの値 Q2: No
+取得したセルの値 Q3: テスト2の答え
+■csvに書き込むデータ： 55,男,DEFグループ,37,テストQ1の答え,No,テスト2の答え
+処理するファイル名： powershell_testdata.xlsx
+filename =  C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx
+ファイル名: C:\work\PowerShell\union\make_csv\powershell_testdata.xlsx
+シート名: testdata
+取得したセルの値 年齢: 25
+取得したセルの値 性別: 男
+取得したセルの値 所属: ABCグループ
+取得したセルの値 所属年数: 15
+取得したセルの値 Q1: テストQ1
+取得したセルの値 Q2: YES999999999999999999999999999999999999999999999999999999
+取得したセルの値 Q3: テスト2
+■csvに書き込むデータ： 25,男,ABCグループ,15,テストQ1,YES999999999999999999999999999999999999999999999999999999,テスト2
 result:  0
-�����܂�
-PS C:\work\PowerShell\union\make_csv> 
+おしまい
+
+
+PS C:\work\PowerShell\union\make_csv>
