@@ -1,45 +1,51 @@
 
-����PowerShell�X�N���v�g�͈ȉ��̗v���Ɋ�Â��č쐬���܂����B
+このPowerShellスクリプトは以下の要件に基づいて作成しました。
 
-�y�v���z
-�E�����_����
-�E����I������(�I�ԕ��@�͖��Ȃ�)
-�E���x���������ʂɂȂ�ƃC���C������̂ŁA���ʂ͏d�������Ȃ�
-�EWindows��Ŏ��s�ł���Ɗy(����p�ӂ��Ȃ��Ă悢)
+【要件】
+・ランダムに
+・国を選択する(選ぶ方法は問わない)
+・何度も同じ結果になるとイライラするので、結果は重複させない
+・Windows上で実行できると楽(環境を用意しなくてよい)
 
-�y�@�\�z
-�X�N���v�g�����s����ƁA���E��241���鍑�ƒn��̒����烉���_����1�I�Ԃ��Ƃ��ł��܂��B
-�v���ɂ�����܂����A���x���������ʂ�~�ς����܂���B
+【機能】
+スクリプトを実行すると、世界の241ある国と地域の中からランダムに1つ選ぶことができます。
+要件にもありますが、何度も同じ結果を蓄積させません。
 
-�y�g�����z
-�Ȃ�ƂȂ��A�u���E�̍��X�̍��̂����ׂĉ̂���悤�ɂȂ肽���v����ɂ����Ȃǂ�
-�����������Ƃ��l�����Ƃ��ɁA�ǂ����璅�肷��΂悢���킩��Ȃ��Ǝv���܂��B
-����Ȏ��ɂ͂��̃X�N���v�g�����s���āA�I��ł�����Ă��������B
-�����W�b�N�͐������ăf�[�^�Ǝ��s�p�X��ς���΁A�Ȃ�ɂł������_���I����K�p�ł��܂��B
+【使い道】
+なんとなく、「世界の国々の国歌をすべて歌えるようになりたい」を趣味にしたなどと
+血迷ったことを考えたときに、どこから着手すればよいかわからないと思います。
+そんな時にはこのスクリプトを実行して、選んでもらってください。
+※ロジックは生かしてデータと実行パスを変えれば、なんにでもランダム選択を適用できます。
 
-�y�g�p���@�z
+【使用方法】
 
-�P�j���̃��|�W�g���̃t�@�C�����_�E�����[�h����
-�Q�jrandomCountry.ps1�̃t�@�C���̈ȉ��̕�����K�X�������̊��ɍ��킹�ďC�����ĉ������B
+１）このリポジトリのファイルをダウンロードする
+２）randomCountry.ps1のファイルの以下の部分を適宜ご自分の環境に合わせて修正して下さい。
 
-#�t�@�C���p�X�̒�`
+#ファイルパスの定義
 $targetdir = "C:\work\PowerShell\randomPlay"
-#�t�@�C�����̒�`
+#ファイル名の定義
 $writefile = $targetdir + '\result.txt'
-#�f�[�^�t�@�C�� 
+#データファイル 
 $datafile = "C:\work\PowerShell\randomPlay\ListOfCountries\countries.csv"
-#���ʃt�@�C��
+#結果ファイル
 $resultfile = "C:\work\PowerShell\randomPlay\result.txt"
-#���ƒn��̐�
+#国と地域の数
 $countries = 241
 
-�R�jrandomCountry.bat�̃t�@�C���p�X���K�X�������̊��ɍ��킹�ďC�����ĉ������B
+３）randomCountry.batのファイルパスも適宜ご自分の環境に合わせて修正して下さい。
 
 powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay\randomCountry.ps1
 
-�S�jWindows��PC�ɔz�u���āArandomCountry.bat�����s�����OK�ł��B
+４）WindowsのPCに配置して、randomCountry.batを実行すればOKです。
 
-�T�j�I�΂ꂽ���ʂ�result.txt�ɒ~�ς���܂��B�����̃t�@�C��������`�ύX�\�ł��B
+５）選ばれた結果はresult.txtに蓄積されます。※このファイル名も定義変更可能です。
 
-�y�����z�₲�w�E�z
-�{���|�W�g���ɂ��C�y�ɂ��A�����������I
+【参考にしたリポジトリ】
+List of nationalities
+https://gist.github.com/marijn/396531/188caa065e3cd319fed7913ee3eecf5eec541918
+
+Thanks!!
+
+【ご感想やご指摘】
+本リポジトリにお気軽にご連絡ください！
