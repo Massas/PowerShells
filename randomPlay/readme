@@ -1,0 +1,45 @@
+
+このPowerShellスクリプトは以下の要件に基づいて作成しました。
+
+【要件】
+・ランダムに
+・国を選択する(選ぶ方法は問わない)
+・何度も同じ結果になるとイライラするので、結果は重複させない
+・Windows上で実行できると楽(環境を用意しなくてよい)
+
+【機能】
+スクリプトを実行すると、世界の241ある国と地域の中からランダムに1つ選ぶことができます。
+要件にもありますが、何度も同じ結果を蓄積させません。
+
+【使い道】
+なんとなく、「世界の国々の国歌をすべて歌えるようになりたい」を趣味にしたなどと
+血迷ったことを考えたときに、どこから着手すればよいかわからないと思います。
+そんな時にはこのスクリプトを実行して、選んでもらってください。
+※ロジックは生かしてデータと実行パスを変えれば、なんにでもランダム選択を適用できます。
+
+【使用方法】
+
+１）このリポジトリのファイルをダウンロードする
+２）randomCountry.ps1のファイルの以下の部分を適宜ご自分の環境に合わせて修正して下さい。
+
+#ファイルパスの定義
+$targetdir = "C:\work\PowerShell\randomPlay"
+#ファイル名の定義
+$writefile = $targetdir + '\result.txt'
+#データファイル 
+$datafile = "C:\work\PowerShell\randomPlay\ListOfCountries\countries.csv"
+#結果ファイル
+$resultfile = "C:\work\PowerShell\randomPlay\result.txt"
+#国と地域の数
+$countries = 241
+
+３）randomCountry.batのファイルパスも適宜ご自分の環境に合わせて修正して下さい。
+
+powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay\randomCountry.ps1
+
+４）WindowsのPCに配置して、randomCountry.batを実行すればOKです。
+
+５）選ばれた結果はresult.txtに蓄積されます。※このファイル名も定義変更可能です。
+
+【ご感想やご指摘】
+本リポジトリにお気軽にご連絡ください！
