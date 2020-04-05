@@ -39,6 +39,7 @@ if($null -eq $resultStr){
     $loopcnt=1
     foreach ($cmpstr in $resultStr) {
         if($selectedCountry -eq $cmpstr){
+            powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay\randomCountry.ps1
             #d•¡Œ‹‰Ê‚ªŒ©‚Â‚©‚Á‚½‚çˆ—‚ğ’†’f‚·‚é
             exit
         }
