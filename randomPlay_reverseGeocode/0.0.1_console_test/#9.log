@@ -1,0 +1,157 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+
+latitude = 45.573953
+longitude = -54.291908
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "88Q7HPF5+H6"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Division No. 2, Subd. C",
+               "short_name" : "Division No. 2, Subd. C",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Division No. 2",
+               "short_name" : "Division No. 2",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Newfoundland and Labrador",
+               "short_name" : "NL",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Division No. 2, Subd. C, NL, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 48.0258939,
+                  "lng" : -53.990817
+               },
+               "southwest" : {
+                  "lat" : 44.877443,
+                  "lng" : -55.3187611
+               }
+            },
+            "location" : {
+               "lat" : 46.4274475,
+               "lng" : -54.5216772
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.0258939,
+                  "lng" : -53.990817
+               },
+               "southwest" : {
+                  "lat" : 44.877443,
+                  "lng" : -55.3187611
+               }
+            }
+         },
+         "place_id" : "ChIJgxNx3x_JbUsRZH1B5ODUTC8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Division No. 2",
+               "short_name" : "Division No. 2",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Newfoundland and Labrador",
+               "short_name" : "NL",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Division No. 2, NL, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 48.2065841,
+                  "lng" : -53.8679509
+               },
+               "southwest" : {
+                  "lat" : 43.92522899999999,
+                  "lng" : -56.15175989999999
+               }
+            },
+            "location" : {
+               "lat" : 45.9950924,
+               "lng" : -54.9009005
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.2065841,
+                  "lng" : -53.8679509
+               },
+               "southwest" : {
+                  "lat" : 43.92522899999999,
+                  "lng" : -56.15175989999999
+               }
+            }
+         },
+         "place_id" : "ChIJxfhnRYVLbEsRyRun2IumR2k",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlantic Ocean",
+               "short_name" : "Atlantic Ocean",
+               "types" : [ "establishment", "natural_feature" ]
+            }
+         ],
+         "formatted_address" : "Atlantic Ocean",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 68.1962901,
+                  "lng" : 19.9970779
+               },
+               "southwest" : {
+                  "lat" : -75.9725902,
+                  "lng" : -82.9931606
+               }
+            },
+            "location" : {
+               "lat" : -14.5994134,
+               "lng" : -28.6731465
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 68.1962901,
+                  "lng" : 19.9970779
+               },
+               "southwest" : {
+                  "lat" : -75.9725902,
+                  "lng" : -82.9931606
+               }
+            }
+         },
+         "place_id" : "ChIJ_7hu48qBWgYRT1MQ81ciNKY",
+         "types" : [ "establishment", "natural_feature" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode> 

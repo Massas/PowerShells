@@ -1,0 +1,54 @@
+C:\work\PowerShell\randomPlay_reverseGeocode>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1                                                                             
+latitude = -76.494072
+longitude = 122.321250
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "2QM4G84C+9G"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Antarctica",
+               "short_name" : "AQ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Antarctica",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -60.1086999,
+                  "lng" : 180
+               },
+               "southwest" : {
+                  "lat" : -90,
+                  "lng" : -180
+               }
+            },
+            "location" : {
+               "lat" : -75.250973,
+               "lng" : -0.07138899999999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -60.1086999,
+                  "lng" : 180
+               },
+               "southwest" : {
+                  "lat" : -90,
+                  "lng" : -180
+               }
+            }
+         },
+         "place_id" : "ChIJS3WQM3uWuaQRdSAPdB--Um4",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+
+C:\work\PowerShell\randomPlay_reverseGeocode>pause
+‘±s‚·‚é‚É‚Í‰½‚©ƒL[‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢ . . .

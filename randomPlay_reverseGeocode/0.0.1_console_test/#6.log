@@ -1,0 +1,54 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+
+latitude = -42.464636
+longitude = 58.266611
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "4H9WG7P8+4J"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Indian Ocean",
+               "short_name" : "Indian Ocean",
+               "types" : [ "establishment", "natural_feature" ]
+            }
+         ],
+         "formatted_address" : "Indian Ocean",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 10.4186036,
+                  "lng" : 146.9166668
+               },
+               "southwest" : {
+                  "lat" : -71.4421996,
+                  "lng" : 13.0882271
+               }
+            },
+            "location" : {
+               "lat" : -33.137551,
+               "lng" : 81.826172
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 10.4186036,
+                  "lng" : 146.9166668
+               },
+               "southwest" : {
+                  "lat" : -71.4421996,
+                  "lng" : 13.0882271
+               }
+            }
+         },
+         "place_id" : "ChIJH2p_crJNFxgRN5apY1C_1Oo",
+         "types" : [ "establishment", "natural_feature" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode>

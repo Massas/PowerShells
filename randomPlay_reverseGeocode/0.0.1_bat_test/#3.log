@@ -1,0 +1,149 @@
+
+C:\work\PowerShell\randomPlay_reverseGeocode>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1                                                                             
+latitude = 8.616852
+longitude = 20.588127
+CONTENT : {
+   "plus_code" : {
+      "compound_code" : "JH8Q+P7 Lokotoumala, Central African Republic",
+      "global_code" : "6GW2JH8Q+P7"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nd??l??",
+               "short_name" : "Nd??l??",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bamingui-Bangoran",
+               "short_name" : "Bamingui-Bangoran",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Central African Republic",
+               "short_name" : "CF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Nd??l??, Central African Republic",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 9.744926099999999,
+                  "lng" : 22.401123
+               },
+               "southwest" : {
+                  "lat" : 7.7137134,
+                  "lng" : 18.9102173
+               }
+            },
+            "location" : {
+               "lat" : 8.760699899999999,
+               "lng" : 20.902977
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 9.744926099999999,
+                  "lng" : 22.401123
+               },
+               "southwest" : {
+                  "lat" : 7.7137134,
+                  "lng" : 18.9102173
+               }
+            }
+         },
+         "place_id" : "ChIJFRF2kHQ11BAR1fmQ9MBEqzI",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bamingui-Bangoran",
+               "short_name" : "Bamingui-Bangoran",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Central African Republic",
+               "short_name" : "CF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bamingui-Bangoran, Central African Republic",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 9.794469999999999,
+                  "lng" : 22.399819
+               },
+               "southwest" : {
+                  "lat" : 7.021317,
+                  "lng" : 18.8627225
+               }
+            },
+            "location" : {
+               "lat" : 8.2733455,
+               "lng" : 20.7122465
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 9.794469999999999,
+                  "lng" : 22.399819
+               },
+               "southwest" : {
+                  "lat" : 7.021317,
+                  "lng" : 18.8627225
+               }
+            }
+         },
+         "place_id" : "ChIJIzvoQKU50RAREGwdBcheKKo",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Central African Republic",
+               "short_name" : "CF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Central African Republic",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 11.0179569,
+                  "lng" : 27.4583049
+               },
+               "southwest" : {
+                  "lat" : 2.2230529,
+                  "lng" : 14.4150981
+               }
+            },
+            "location" : {
+               "lat" : 6.611110999999999,
+               "lng" : 20.939444
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 11.0179569,
+                  "lng" : 27.4583049
+               },
+               "southwest" : {
+                  "lat" : 2.2230529,
+                  "lng" : 14.4150981
+               }
+            }
+         },
+         "place_id" : "ChIJt6KGjVPpuBARJIBcWgLGm7g",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+
+C:\work\PowerShell\randomPlay_reverseGeocode>pause
+続行するには何かキーを押してください . . .

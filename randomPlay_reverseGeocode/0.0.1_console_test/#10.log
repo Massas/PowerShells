@@ -1,0 +1,148 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1  
+
+
+latitude = -24.119860
+longitude = -61.798168
+CONTENT : {
+   "plus_code" : {
+      "compound_code" : "V6J2+3P El Bragado, Formosa, Argentina",
+      "global_code" : "577WV6J2+3P"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bermejo Department, Formosa",
+               "short_name" : "Bermejo Department, Formosa",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Formosa Province",
+               "short_name" : "Formosa Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bermejo Department, Formosa, Formosa Province, Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -23.1051411,
+                  "lng" : -60.3740712
+               },
+               "southwest" : {
+                  "lat" : -24.7880759,
+                  "lng" : -61.8512149
+               }
+            },
+            "location" : {
+               "lat" : -24.0349847,
+               "lng" : -61.14031960000001
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.1051411,
+                  "lng" : -60.3740712
+               },
+               "southwest" : {
+                  "lat" : -24.7880759,
+                  "lng" : -61.8512149
+               }
+            }
+         },
+         "place_id" : "ChIJv2ZbTie6bJQRfUp1OLPbuNM",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Formosa Province",
+               "short_name" : "Formosa Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Formosa Province, Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -22.4644304,
+                  "lng" : -57.5591251
+               },
+               "southwest" : {
+                  "lat" : -26.8712091,
+                  "lng" : -62.34731379999999
+               }
+            },
+            "location" : {
+               "lat" : -26.1894804,
+               "lng" : -58.22428060000001
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -22.4644304,
+                  "lng" : -57.5591251
+               },
+               "southwest" : {
+                  "lat" : -26.8712091,
+                  "lng" : -62.34731379999999
+               }
+            }
+         },
+         "place_id" : "ChIJpwz0Xr4sapQRRF1cxa5GtKA",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -21.7810459,
+                  "lng" : -53.637481
+               },
+               "southwest" : {
+                  "lat" : -55.1250224,
+                  "lng" : -73.5603601
+               }
+            },
+            "location" : {
+               "lat" : -38.416097,
+               "lng" : -63.61667199999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -21.7810459,
+                  "lng" : -53.637481
+               },
+               "southwest" : {
+                  "lat" : -55.1250224,
+                  "lng" : -73.5603601
+               }
+            }
+         },
+         "place_id" : "ChIJZ8b99fXKvJURqA_wKpl3Lz0",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode>

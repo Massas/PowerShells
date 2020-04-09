@@ -1,0 +1,54 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+
+latitude = -17.436260
+longitude = 148.630268
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "5RJCHJ7J+F4"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Coral Sea",
+               "short_name" : "Coral Sea",
+               "types" : [ "establishment", "natural_feature" ]
+            }
+         ],
+         "formatted_address" : "Coral Sea",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -7.528605399999999,
+                  "lng" : 169.8124452
+               },
+               "southwest" : {
+                  "lat" : -30.0000002,
+                  "lng" : 141.0378209
+               }
+            },
+            "location" : {
+               "lat" : -19.3919547,
+               "lng" : 155.8560646
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -7.528605399999999,
+                  "lng" : 169.8124452
+               },
+               "southwest" : {
+                  "lat" : -30.0000002,
+                  "lng" : 141.0378209
+               }
+            }
+         },
+         "place_id" : "ChIJpz1M97ChfGkRQFoY2PHuACo",
+         "types" : [ "establishment", "natural_feature" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode>

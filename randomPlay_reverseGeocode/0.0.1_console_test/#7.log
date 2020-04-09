@@ -1,0 +1,103 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+
+latitude = 71.756578
+longitude = 136.475948
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "CQ3RQF4G+J9"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "678562",
+               "short_name" : "678562",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Sakha Republic",
+               "short_name" : "Sakha Republic",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Russia",
+               "short_name" : "RU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sakha Republic, Russia, 678562",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 71.847639,
+                  "lng" : 137.3069441
+               },
+               "southwest" : {
+                  "lat" : 70.986164,
+                  "lng" : 134.6827771
+               }
+            },
+            "location" : {
+               "lat" : 71.5579568,
+               "lng" : 135.8268366
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 71.847639,
+                  "lng" : 137.3069441
+               },
+               "southwest" : {
+                  "lat" : 70.986164,
+                  "lng" : 134.6827771
+               }
+            }
+         },
+         "place_id" : "ChIJ_zoBPLQhsFsRF5OVlRnXUp4",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Russia",
+               "short_name" : "RU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Russia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 82.1673907,
+                  "lng" : -168.97788
+               },
+               "southwest" : {
+                  "lat" : 41.185353,
+                  "lng" : 19.6160999
+               }
+            },
+            "location" : {
+               "lat" : 61.52401,
+               "lng" : 105.318756
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 82.1673907,
+                  "lng" : -168.97788
+               },
+               "southwest" : {
+                  "lat" : 41.185353,
+                  "lng" : 19.6160999
+               }
+            }
+         },
+         "place_id" : "ChIJ-yRniZpWPEURE_YRZvj9CRQ",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode>

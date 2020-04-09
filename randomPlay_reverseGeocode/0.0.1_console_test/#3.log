@@ -1,0 +1,148 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+
+latitude = 36.335794
+longitude = 64.60942
+CONTENT : {
+   "plus_code" : {
+      "compound_code" : "8JP5+8Q Jalaier, Afghanistan",
+      "global_code" : "8J868JP5+8Q"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dawlat Abad",
+               "short_name" : "Dawlat Abad",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Faryab",
+               "short_name" : "Faryab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Afghanistan",
+               "short_name" : "AF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Dawlat Abad, Afghanistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 36.6772274,
+                  "lng" : 65.4331971
+               },
+               "southwest" : {
+                  "lat" : 36.2940962,
+                  "lng" : 64.55429060000002
+               }
+            },
+            "location" : {
+               "lat" : 36.5074139,
+               "lng" : 65.0008536
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.6772274,
+                  "lng" : 65.4331971
+               },
+               "southwest" : {
+                  "lat" : 36.2940962,
+                  "lng" : 64.55429060000002
+               }
+            }
+         },
+         "place_id" : "ChIJ7RuOtAwENz8Rno2hRjjJvWY",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Faryab",
+               "short_name" : "Faryab",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Afghanistan",
+               "short_name" : "AF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Faryab, Afghanistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.2501681,
+                  "lng" : 65.822068
+               },
+               "southwest" : {
+                  "lat" : 35.1631961,
+                  "lng" : 63.8947181
+               }
+            },
+            "location" : {
+               "lat" : 36.0795613,
+               "lng" : 64.90595499999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2501681,
+                  "lng" : 65.822068
+               },
+               "southwest" : {
+                  "lat" : 35.1631961,
+                  "lng" : 63.8947181
+               }
+            }
+         },
+         "place_id" : "ChIJAd_7s-MwNz8RVnwJqYNWi28",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Afghanistan",
+               "short_name" : "AF",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Afghanistan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 38.49087670000001,
+                  "lng" : 74.8898619
+               },
+               "southwest" : {
+                  "lat" : 29.3772,
+                  "lng" : 60.5170005
+               }
+            },
+            "location" : {
+               "lat" : 33.93911,
+               "lng" : 67.709953
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 38.49087670000001,
+                  "lng" : 74.8898619
+               },
+               "southwest" : {
+                  "lat" : 29.3772,
+                  "lng" : 60.5170005
+               }
+            }
+         },
+         "place_id" : "ChIJbQL_-LZu0TgReNqWvg1GtfM",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode> 

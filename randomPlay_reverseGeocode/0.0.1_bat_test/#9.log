@@ -1,0 +1,14 @@
+C:\work\PowerShell\randomPlay_reverseGeocode>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1                                                                             
+latitude = 66.966431
+longitude = 4.342543
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "9FR6X88V+H2"
+   },
+   "results" : [],
+   "status" : "ZERO_RESULTS"
+}
+.Content
+
+C:\work\PowerShell\randomPlay_reverseGeocode>pause
+‘±s‚·‚é‚É‚Í‰½‚©ƒL[‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢ . . .

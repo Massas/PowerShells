@@ -1,0 +1,207 @@
+C:\work\PowerShell\randomPlay_reverseGeocode>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1
+latitude = 30.608347
+longitude = 7.299758
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "8F29J75X+8W"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "El Borma",
+               "short_name" : "El Borma",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "El Borma",
+               "short_name" : "El Borma",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Ouargla Province",
+               "short_name" : "Ouargla Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "El Borma, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 32.233656,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 30.13686,
+                  "lng" : 6.5761128
+               }
+            },
+            "location" : {
+               "lat" : 31.0062563,
+               "lng" : 8.133855799999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.233656,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 30.13686,
+                  "lng" : 6.5761128
+               }
+            }
+         },
+         "place_id" : "ChIJvyTt6l70TxIRJ3-Io-gYKk4",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "El Borma",
+               "short_name" : "El Borma",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "El Borma",
+               "short_name" : "El Borma",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ouargla Province",
+               "short_name" : "Ouargla Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "El Borma, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 32.233656,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 30.13686,
+                  "lng" : 6.5761128
+               }
+            },
+            "location" : {
+               "lat" : 31.190996,
+               "lng" : 7.929925799999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.233656,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 30.13686,
+                  "lng" : 6.5761128
+               }
+            }
+         },
+         "place_id" : "ChIJ5W-vos71URIRNWl1PEkWo2I",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ouargla Province",
+               "short_name" : "Ouargla Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Ouargla Province, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 33.94809600000001,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 28.4971831,
+                  "lng" : 2.995474
+               }
+            },
+            "location" : {
+               "lat" : 32.2264863,
+               "lng" : 5.729982100000001
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.94809600000001,
+                  "lng" : 9.4725939
+               },
+               "southwest" : {
+                  "lat" : 28.4971831,
+                  "lng" : 2.995474
+               }
+            }
+         },
+         "place_id" : "ChIJmeLGNF-cQxIRL69NIOKt6H8",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.2216,
+                  "lng" : 11.9999992
+               },
+               "southwest" : {
+                  "lat" : 18.9681469,
+                  "lng" : -8.6676111
+               }
+            },
+            "location" : {
+               "lat" : 28.033886,
+               "lng" : 1.659626
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2216,
+                  "lng" : 11.9999992
+               },
+               "southwest" : {
+                  "lat" : 18.9681469,
+                  "lng" : -8.6676111
+               }
+            }
+         },
+         "place_id" : "ChIJ0XsDKGqKfg0RovjXq-O-QHE",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+
+C:\work\PowerShell\randomPlay_reverseGeocode>pause
+‘±s‚·‚é‚É‚Í‰½‚©ƒL[‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢ . . .
+

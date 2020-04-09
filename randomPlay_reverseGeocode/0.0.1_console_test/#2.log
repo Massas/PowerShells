@@ -1,0 +1,995 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> .\randomReverseGeoCoding.ps1
+
+latitude = 43.164517
+longitude = 24.721730
+STATUSCODE : {
+   "plus_code" : {
+      "compound_code" : "5P7C+RM Lovech, Bulgaria",
+      "global_code" : "8GM65P7C+RM"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "?????????? - ????????????",
+               "short_name" : "?????????? - ????????????",
+               "types" : [
+                  "establishment",
+                  "point_of_interest",
+                  "train_station",
+                  "transit_station"
+               ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "?????????? - ????????????, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.164074,
+               "lng" : 24.722164
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1654229802915,
+                  "lng" : 24.7235129802915
+               },
+               "southwest" : {
+                  "lat" : 43.1627250197085,
+                  "lng" : 24.7208150197085
+               }
+            }
+         },
+         "place_id" : "ChIJQWfyRETnq0ARFx6a1Abwurg",
+         "plus_code" : {
+            "compound_code" : "5P7C+JV Lovech, Bulgaria",
+            "global_code" : "8GM65P7C+JV"
+         },
+         "types" : [
+            "establishment",
+            "point_of_interest",
+            "train_station",
+            "transit_station"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "bulevard \"Mizia\"",
+               "short_name" : "bul. \"Mizia\"",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "bul. \"Mizia\" 1, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1641586,
+                  "lng" : 24.7225092
+               },
+               "southwest" : {
+                  "lat" : 43.1609655,
+                  "lng" : 24.7176003
+               }
+            },
+            "location" : {
+               "lat" : 43.1625621,
+               "lng" : 24.7200546
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1641586,
+                  "lng" : 24.7225092
+               },
+               "southwest" : {
+                  "lat" : 43.1609655,
+                  "lng" : 24.7176003
+               }
+            }
+         },
+         "place_id" : "ChIJF6K9v0Tnq0ARBrmQ2U-Qo-I",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "bulevard \"Mizia\"",
+               "short_name" : "bul. \"Mizia\"",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "bul. \"Mizia\" 1, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.1629143,
+               "lng" : 24.720596
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.16426328029149,
+                  "lng" : 24.7219449802915
+               },
+               "southwest" : {
+                  "lat" : 43.16156531970849,
+                  "lng" : 24.7192470197085
+               }
+            }
+         },
+         "place_id" : "Ej9idWwuICJNaXppYSIgMSwgNTUwMiBOb3J0aGVybiBJbmR1c3RyaWFsIFpvbmUsIExvdmVjaCwgQnVsZ2FyaWEiGhIYChQKEgkXor2_ROerQBEGuZDZT5Cj4hAB", 
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1820957,
+                  "lng" : 24.7466138
+               },
+               "southwest" : {
+                  "lat" : 43.1480289,
+                  "lng" : 24.6962543
+               }
+            },
+            "location" : {
+               "lat" : 43.1646474,
+               "lng" : 24.7165809
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1820957,
+                  "lng" : 24.7466138
+               },
+               "southwest" : {
+                  "lat" : 43.1480289,
+                  "lng" : 24.6962543
+               }
+            }
+         },
+         "place_id" : "ChIJYyRMD0Tnq0ARj-XS8E8b-08",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1819797,
+                  "lng" : 24.7467215
+               },
+               "southwest" : {
+                  "lat" : 43.1069685,
+                  "lng" : 24.6753677
+               }
+            },
+            "location" : {
+               "lat" : 43.1369534,
+               "lng" : 24.7141906
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1819797,
+                  "lng" : 24.7467215
+               },
+               "southwest" : {
+                  "lat" : 43.1069685,
+                  "lng" : 24.6753677
+               }
+            }
+         },
+         "place_id" : "ChIJU1G3GQreq0ARvTNimQqJT34",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "5502 Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1988675,
+                  "lng" : 24.7692189
+               },
+               "southwest" : {
+                  "lat" : 43.1411015,
+                  "lng" : 24.7036217
+               }
+            },
+            "location" : {
+               "lat" : 43.1737434,
+               "lng" : 24.7286552
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1988675,
+                  "lng" : 24.7692189
+               },
+               "southwest" : {
+                  "lat" : 43.1411015,
+                  "lng" : 24.7036217
+               }
+            }
+         },
+         "place_id" : "ChIJw66x_Tbnq0ARcc_LCDpliQo",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.31578700000001,
+                  "lng" : 25.0159949
+               },
+               "southwest" : {
+                  "lat" : 42.9837419,
+                  "lng" : 24.5175882
+               }
+            },
+            "location" : {
+               "lat" : 43.1367976,
+               "lng" : 24.7139128
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.31578700000001,
+                  "lng" : 25.0159949
+               },
+               "southwest" : {
+                  "lat" : 42.9837419,
+                  "lng" : 24.5175882
+               }
+            }
+         },
+         "place_id" : "ChIJ4x2gFprgq0ARPpd_3DyA_KU",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovec, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.3798481,
+                  "lng" : 25.1497286
+               },
+               "southwest" : {
+                  "lat" : 42.7077123,
+                  "lng" : 23.9589145
+               }
+            },
+            "location" : {
+               "lat" : 43.1367798,
+               "lng" : 24.7139335
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3798481,
+                  "lng" : 25.1497286
+               },
+               "southwest" : {
+                  "lat" : 42.7077123,
+                  "lng" : 23.9589145
+               }
+            }
+         },
+         "place_id" : "ChIJhQZNmZvaq0ARoEy_aRKgAAM",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.2153059,
+                  "lng" : 28.7292001
+               },
+               "southwest" : {
+                  "lat" : 41.2354469,
+                  "lng" : 22.3573446
+               }
+            },
+            "location" : {
+               "lat" : 42.733883,
+               "lng" : 25.48583
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.2153059,
+                  "lng" : 28.7292001
+               },
+               "southwest" : {
+                  "lat" : 41.2354469,
+                  "lng" : 22.3573446
+               }
+            }
+         },
+         "place_id" : "ChIJifBbyMH-qEAREEy_aRKgAAA",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.StatusCode
+CONTENT : {
+   "plus_code" : {
+      "compound_code" : "5P7C+RM Lovech, Bulgaria",
+      "global_code" : "8GM65P7C+RM"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "?????????? - ????????????",
+               "short_name" : "?????????? - ????????????",
+               "types" : [
+                  "establishment",
+                  "point_of_interest",
+                  "train_station",
+                  "transit_station"
+               ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "?????????? - ????????????, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.164074,
+               "lng" : 24.722164
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1654229802915,
+                  "lng" : 24.7235129802915
+               },
+               "southwest" : {
+                  "lat" : 43.1627250197085,
+                  "lng" : 24.7208150197085
+               }
+            }
+         },
+         "place_id" : "ChIJQWfyRETnq0ARFx6a1Abwurg",
+         "plus_code" : {
+            "compound_code" : "5P7C+JV Lovech, Bulgaria",
+            "global_code" : "8GM65P7C+JV"
+         },
+         "types" : [
+            "establishment",
+            "point_of_interest",
+            "train_station",
+            "transit_station"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "bulevard \"Mizia\"",
+               "short_name" : "bul. \"Mizia\"",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "bul. \"Mizia\" 1, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1641586,
+                  "lng" : 24.7225092
+               },
+               "southwest" : {
+                  "lat" : 43.1609655,
+                  "lng" : 24.7176003
+               }
+            },
+            "location" : {
+               "lat" : 43.1625621,
+               "lng" : 24.7200546
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1641586,
+                  "lng" : 24.7225092
+               },
+               "southwest" : {
+                  "lat" : 43.1609655,
+                  "lng" : 24.7176003
+               }
+            }
+         },
+         "place_id" : "ChIJF6K9v0Tnq0ARBrmQ2U-Qo-I",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "bulevard \"Mizia\"",
+               "short_name" : "bul. \"Mizia\"",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "bul. \"Mizia\" 1, 5502 Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.1629143,
+               "lng" : 24.720596
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.16426328029149,
+                  "lng" : 24.7219449802915
+               },
+               "southwest" : {
+                  "lat" : 43.16156531970849,
+                  "lng" : 24.7192470197085
+               }
+            }
+         },
+         "place_id" : "Ej9idWwuICJNaXppYSIgMSwgNTUwMiBOb3J0aGVybiBJbmR1c3RyaWFsIFpvbmUsIExvdmVjaCwgQnVsZ2FyaWEiGhIYChQKEgkXor2_ROerQBEGuZDZT5Cj4hAB", 
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Northern Industrial Zone",
+               "short_name" : "Northern Industrial Zone",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Northern Industrial Zone, Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1820957,
+                  "lng" : 24.7466138
+               },
+               "southwest" : {
+                  "lat" : 43.1480289,
+                  "lng" : 24.6962543
+               }
+            },
+            "location" : {
+               "lat" : 43.1646474,
+               "lng" : 24.7165809
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1820957,
+                  "lng" : 24.7466138
+               },
+               "southwest" : {
+                  "lat" : 43.1480289,
+                  "lng" : 24.6962543
+               }
+            }
+         },
+         "place_id" : "ChIJYyRMD0Tnq0ARj-XS8E8b-08",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1819797,
+                  "lng" : 24.7467215
+               },
+               "southwest" : {
+                  "lat" : 43.1069685,
+                  "lng" : 24.6753677
+               }
+            },
+            "location" : {
+               "lat" : 43.1369534,
+               "lng" : 24.7141906
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1819797,
+                  "lng" : 24.7467215
+               },
+               "southwest" : {
+                  "lat" : 43.1069685,
+                  "lng" : 24.6753677
+               }
+            }
+         },
+         "place_id" : "ChIJU1G3GQreq0ARvTNimQqJT34",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5502",
+               "short_name" : "5502",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "5502 Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.1988675,
+                  "lng" : 24.7692189
+               },
+               "southwest" : {
+                  "lat" : 43.1411015,
+                  "lng" : 24.7036217
+               }
+            },
+            "location" : {
+               "lat" : 43.1737434,
+               "lng" : 24.7286552
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.1988675,
+                  "lng" : 24.7692189
+               },
+               "southwest" : {
+                  "lat" : 43.1411015,
+                  "lng" : 24.7036217
+               }
+            }
+         },
+         "place_id" : "ChIJw66x_Tbnq0ARcc_LCDpliQo",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovech",
+               "short_name" : "Lovech",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovech, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.31578700000001,
+                  "lng" : 25.0159949
+               },
+               "southwest" : {
+                  "lat" : 42.9837419,
+                  "lng" : 24.5175882
+               }
+            },
+            "location" : {
+               "lat" : 43.1367976,
+               "lng" : 24.7139128
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.31578700000001,
+                  "lng" : 25.0159949
+               },
+               "southwest" : {
+                  "lat" : 42.9837419,
+                  "lng" : 24.5175882
+               }
+            }
+         },
+         "place_id" : "ChIJ4x2gFprgq0ARPpd_3DyA_KU",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lovec",
+               "short_name" : "Lovec",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lovec, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.3798481,
+                  "lng" : 25.1497286
+               },
+               "southwest" : {
+                  "lat" : 42.7077123,
+                  "lng" : 23.9589145
+               }
+            },
+            "location" : {
+               "lat" : 43.1367798,
+               "lng" : 24.7139335
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3798481,
+                  "lng" : 25.1497286
+               },
+               "southwest" : {
+                  "lat" : 42.7077123,
+                  "lng" : 23.9589145
+               }
+            }
+         },
+         "place_id" : "ChIJhQZNmZvaq0ARoEy_aRKgAAM",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.2153059,
+                  "lng" : 28.7292001
+               },
+               "southwest" : {
+                  "lat" : 41.2354469,
+                  "lng" : 22.3573446
+               }
+            },
+            "location" : {
+               "lat" : 42.733883,
+               "lng" : 25.48583
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.2153059,
+                  "lng" : 28.7292001
+               },
+               "southwest" : {
+                  "lat" : 41.2354469,
+                  "lng" : 22.3573446
+               }
+            }
+         },
+         "place_id" : "ChIJifBbyMH-qEAREEy_aRKgAAA",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+PS C:\work\PowerShell\randomPlay_reverseGeocode>

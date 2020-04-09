@@ -1,0 +1,148 @@
+
+C:\work\PowerShell\randomPlay_reverseGeocode>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1                                                                             
+latitude = -24.94330
+longitude = -67.978703
+CONTENT : {
+   "plus_code" : {
+      "global_code" : "577J324C+MG"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Los Andes Department",
+               "short_name" : "Los Andes Department",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Salta Province",
+               "short_name" : "Salta Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Los Andes Department, Salta Province, Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -23.6817249,
+                  "lng" : -66.1536066
+               },
+               "southwest" : {
+                  "lat" : -25.289577,
+                  "lng" : -68.5469763
+               }
+            },
+            "location" : {
+               "lat" : -24.7857576,
+               "lng" : -67.18944879999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6817249,
+                  "lng" : -66.1536066
+               },
+               "southwest" : {
+                  "lat" : -25.289577,
+                  "lng" : -68.5469763
+               }
+            }
+         },
+         "place_id" : "ChIJL7qhLW59HZQR_W8mTlsSQWI",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Salta Province",
+               "short_name" : "Salta Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Salta Province, Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -21.9987495,
+                  "lng" : -62.3441087
+               },
+               "southwest" : {
+                  "lat" : -26.3878331,
+                  "lng" : -68.5469763
+               }
+            },
+            "location" : {
+               "lat" : -24.7997688,
+               "lng" : -65.4150367
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -21.9987495,
+                  "lng" : -62.3441087
+               },
+               "southwest" : {
+                  "lat" : -26.3878331,
+                  "lng" : -68.5469763
+               }
+            }
+         },
+         "place_id" : "ChIJx9DqOCkNG5QRmHnD9tEbSos",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Argentina",
+               "short_name" : "AR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Argentina",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -21.7810459,
+                  "lng" : -53.637481
+               },
+               "southwest" : {
+                  "lat" : -55.1250224,
+                  "lng" : -73.5603601
+               }
+            },
+            "location" : {
+               "lat" : -38.416097,
+               "lng" : -63.61667199999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -21.7810459,
+                  "lng" : -53.637481
+               },
+               "southwest" : {
+                  "lat" : -55.1250224,
+                  "lng" : -73.5603601
+               }
+            }
+         },
+         "place_id" : "ChIJZ8b99fXKvJURqA_wKpl3Lz0",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+.Content
+
+C:\work\PowerShell\randomPlay_reverseGeocode>pause
+‘±s‚·‚é‚É‚Í‰½‚©ƒL[‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢ . . .
