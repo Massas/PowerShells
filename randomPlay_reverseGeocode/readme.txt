@@ -47,4 +47,16 @@ Follow this link and get the API Key - http://developers.google.com/maps/documen
 
 $env:GoogleGeocode_API_Key ="hogehoge"
 
+★このスクリプトの実行方法
+　How to use this PowerShell script!
 
+１）このリポジトリのファイルをダウンロードする
+　　Download this repository to your computer.
+
+２）randomReverseGeoCoding.batのファイルパス(C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1)をご自分の環境に配置したパスに修正して下さい。
+　　fix file path below in randomReverseGeoCoding.bat.
+powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1
+
+３）randomReverseGeoCoding.batをダブルクリックして実行します
+　※Windows PowerShellコンソール上では、randomReverseGeoCoding.ps1が配置しているフォルダに移動して
+　　「.\randomReverseGeoCoding.ps1」で実行できます。
