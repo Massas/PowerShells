@@ -1,10 +1,10 @@
-šGoogleMap API‚ğg‚¦‚é‚æ‚¤‚ÉGoogle Cloud Platform‚Åƒ†[ƒU“o˜^‚·‚é
-@How to regist user on Google Cloud Platform to enable you to use GoogleMap API
-@
-@š“ú–{Œê‚Ì‚İ
-@https://qiita.com/Haruka-Ogawa/items/997401a2edcd20e61037
+â˜…GoogleMap APIã‚’ä½¿ãˆã‚‹ã‚ˆã†ã«Google Cloud Platformã§ãƒ¦ãƒ¼ã‚¶ç™»éŒ²ã™ã‚‹
+ã€€How to regist user on Google Cloud Platform to enable you to use GoogleMap API
+ã€€
+ã€€â˜…æ—¥æœ¬èªã®ã¿
+ã€€https://qiita.com/Haruka-Ogawa/items/997401a2edcd20e61037
 
-šGoogleMap API‚ğPowershell‚Åg‚¦‚é‚æ‚¤‚É‚·‚éè‡ 
+â˜…GoogleMap APIã‚’Powershellã§ä½¿ãˆã‚‹ã‚ˆã†ã«ã™ã‚‹æ‰‹é † 
 How to be able to use "Google Map API" with Powershell
 
 Install-Module -Name GoogleMap
@@ -25,15 +25,15 @@ Find-Module GoogleMap | Install-Module -Scope CurrentUser -Verbose -Force -Allow
 
 Import-Module GoogleMap
 
-š‚±‚ê‚ªo‚½‚çAPIƒL[‚ğİ’è‚µ–Y‚ê‚Ä‚¢‚é
-@If it occured, you may forget assign API Key
+â˜…ã“ã‚ŒãŒå‡ºãŸã‚‰APIã‚­ãƒ¼ã‚’è¨­å®šã—å¿˜ã‚Œã¦ã„ã‚‹
+ã€€If it occured, you may forget assign API Key
 
 PS C:\windows\system32> "White House","Eiffel Tower" |Get-GeoCoding
 You need to register and get an API key and save it as environment variable $env:GoogleGeocode_API_Key = "YOUR API KEY"
 
 Follow this link and get the API Key - http://developers.google.com/maps/documentation/geocoding/get-api-key
 
-”­¶êŠ C:\Root\Documents\WindowsPowerShell\Modules\GoogleMap\1.0.0.3\GoogleMap.psm1:80 •¶š:13
+ç™ºç”Ÿå ´æ‰€ C:\Root\Documents\WindowsPowerShell\Modules\GoogleMap\1.0.0.3\GoogleMap.psm1:80 æ–‡å­—:13
 +             Throw "You need to register and get an API key and save i ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 + CategoryInfo          : OperationStopped: (You need to reg...get-api-key
@@ -42,21 +42,25 @@ Follow this link and get the API Key - http://developers.google.com/maps/documen
 eocode_API_Key = "YOUR API KEY"
 Follow this link and get the API Key - http://developers.google.com/maps/documentation/geocoding/get-api-key
 
-š‚±‚Ì‚æ‚¤‚ÉAPIƒL[‚ğİ’è‚·‚ê‚ÎOK
-@How to solve error above
+â˜…ã“ã®ã‚ˆã†ã«APIã‚­ãƒ¼ã‚’è¨­å®šã™ã‚Œã°OK
+ã€€How to solve error above
 
 $env:GoogleGeocode_API_Key ="hogehoge"
 
-š‚±‚ÌƒXƒNƒŠƒvƒg‚ÌÀs•û–@
-@How to use this PowerShell script!
+â˜…ã“ã®ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®å®Ÿè¡Œæ–¹æ³•
+ã€€How to use this PowerShell script!
 
-‚Pj‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚Ìƒtƒ@ƒCƒ‹‚ğƒ_ƒEƒ“ƒ[ƒh‚·‚é
-@@Download this repository to your computer.
+ï¼‘ï¼‰ã“ã®ãƒªãƒã‚¸ãƒˆãƒªã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
+ã€€ã€€Download this repository to your computer.
 
-‚QjrandomReverseGeoCoding.bat‚Ìƒtƒ@ƒCƒ‹ƒpƒX(C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1)‚ğ‚²©•ª‚ÌŠÂ‹«‚É”z’u‚µ‚½ƒpƒX‚ÉC³‚µ‚Ä‰º‚³‚¢B
-@@fix file path below in randomReverseGeoCoding.bat.
+ï¼’ï¼‰randomReverseGeoCoding.batã®ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹(C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1)ã‚’ã”è‡ªåˆ†ã®ç’°å¢ƒã«é…ç½®ã—ãŸãƒ‘ã‚¹ã«ä¿®æ­£ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ã€€fix file path below in randomReverseGeoCoding.bat.
 powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomReverseGeoCoding.ps1
 
-‚RjrandomReverseGeoCoding.bat‚ğƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚ÄÀs‚µ‚Ü‚·
-@¦Windows PowerShellƒRƒ“ƒ\[ƒ‹ã‚Å‚ÍArandomReverseGeoCoding.ps1‚ª”z’u‚µ‚Ä‚¢‚éƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ‚Ä
-@@u.\randomReverseGeoCoding.ps1v‚ÅÀs‚Å‚«‚Ü‚·B
+ï¼“ï¼‰APIã‚­ãƒ¼ã‚’è‡ªåˆ†ã®ã‚‚ã®ã«ä¿®æ­£ã™ã‚‹
+$apicall="https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=hogehoge"
+ã€Œ&key=hogehoge"ã€ã®hogehogeã®éƒ¨åˆ†ã‚’è‡ªåˆ†ã®APIã‚­ãƒ¼ã«ã™ã‚‹ï¼
+
+ï¼”ï¼‰randomReverseGeoCoding.batã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ã¦å®Ÿè¡Œã—ã¾ã™
+ã€€â€»Windows PowerShellã‚³ãƒ³ã‚½ãƒ¼ãƒ«ä¸Šã§ã¯ã€randomReverseGeoCoding.ps1ãŒé…ç½®ã—ã¦ã„ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—ã¦
+ã€€ã€€ã€Œ.\randomReverseGeoCoding.ps1ã€ã§å®Ÿè¡Œã§ãã¾ã™ã€‚
