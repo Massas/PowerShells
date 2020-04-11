@@ -19,3 +19,9 @@ This repository is for PowerShell. PowerShellのリポジトリです。
  get positional information by using Google Map API(reverse-geocoding). 
 
 (https://github.com/Massas/PowerShells/tree/master/randomPlay_reverseGeocode)
+
+4. [ランダムに緯度と経度を生成し、Google Mapを表示させるスクリプト]
+
+ 	PowerShell script that display and indicate site randomly on Google Map.
+
+(https://github.com/Massas/PowerShells/tree/master/randomGoogleMapDisplay)
