@@ -1,0 +1,6 @@
+PS C:\work\PowerShell\randomPlay_reverseGeocode> ./randomGoogleMapDisplay.ps1
+
+
+latitude =  57.186157
+longitude =  63.48490
+PS C:\work\PowerShell\randomPlay_reverseGeocode> 

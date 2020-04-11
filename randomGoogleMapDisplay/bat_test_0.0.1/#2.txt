@@ -1,0 +1,7 @@
+C:\work\PowerShell\randomPlay_reverseGeocode\github_release\randomGoogleMapDisplay>powershell -ExecutionPolicy RemoteSigned -File C:\work\PowerShell\randomPlay_reverseGeocode\randomGoogleMapDisplay.ps1
+
+latitude =  12.501725
+longitude =  97.831553
+
+C:\work\PowerShell\randomPlay_reverseGeocode\github_release\randomGoogleMapDisplay>pause
+続行するには何かキーを押してください . . .
